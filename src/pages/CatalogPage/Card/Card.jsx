@@ -10,7 +10,7 @@ export default function Card(props){
             <div className={s.inner}>
                 <div className={s.title}>{props.name}</div>
                 <div className={s.card_btn}>
-                    <p className={s.price}>{props.price}</p>
+                    <p className={s.price}>{props.price} ₽</p>
                     <BlueBtn text='Добавить в корзину'/>
                 </div>
             </div>
