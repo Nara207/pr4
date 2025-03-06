@@ -1,5 +1,4 @@
 import s from './Card.module.css'
-import cardimg from '../../../../public/card_img.png'
 import BlueBtn from '../../../components/BlueBtn/BlueBtn'
 
 export default function Card(props){
