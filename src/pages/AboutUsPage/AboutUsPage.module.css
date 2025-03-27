@@ -1,0 +1,57 @@
+.about_us{
+    background-color: #F5F5F5;
+    padding: 40px 0;
+}
+.title{
+    color: #232323;
+    font-size: 40px;
+    font-weight: 500;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    background-color: #F5F5F5;
+    padding: 40px 68px 50px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    gap: 25px;
+}
+.cont_title{
+    font-size: 30px;
+    color: #232323;
+    font-weight: 500;
+}
+.cont_btn_text{
+    display: flex;
+    gap: 15px;
+}
+.cont_btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.cont_text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: flex-start;
+}
+.map{
+    margin-top: 40px;
+    background-image: url(../../../public/map.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 75px 50px;
+    border-radius: 6px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}

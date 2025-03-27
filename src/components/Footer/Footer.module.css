@@ -1,12 +1,12 @@
 footer{
     /* margin-top: 80px; */
-    background-color: #5f5b5b;
+    background-color: #232323;
 }
 .footer_inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 30px;
 }
 .nav{
     display: flex;
