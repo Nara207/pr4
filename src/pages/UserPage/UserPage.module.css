@@ -1,0 +1,25 @@
+form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    gap: 10px;
+    
+}
+.name {
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    padding: 15px;
+}
+.username {
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    padding: 15px;
+}
+.button {
+    background: darkblue;
+    padding: 15px;
+    color: white;
+}
