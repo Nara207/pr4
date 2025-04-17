@@ -1,6 +1,7 @@
 .search{
-    border: 1px solid darkblue;
-    margin-bottom: 20px;
-    padding: 7px 12px;
+    /* border: 1px solid darkblue; */
+    /* margin-bottom: 20px; */
+    padding: 10px 15px;
     width: 300px;
+    border-radius: 10px;
 }
