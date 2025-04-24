@@ -7,8 +7,11 @@ import CatalogPage from "./pages/CatalogPage/CatalogPage"
 import ProductPage from "./pages/ProductPage/ProductPage"
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage'
 import UserPage from "./pages/UserPage/UserPage"
+import CartPage from "./pages/CartPage/CartPage"
+import { useState } from "react"
 
 export default function App() {
+  const [cart, setCart] = useState([]);
 
   return (
     <>
@@ -19,6 +22,7 @@ export default function App() {
         <Route path="/catalog/:id" element={<ProductPage/>}></Route>
         <Route path="/about_us" element={<AboutUsPage/>}></Route>
         <Route path="/users" element={<UserPage/>}></Route>
+        <Route path="/cart" element={<CartPage cart = {cart} />}></Route>
       </Routes>
       <Footer></Footer>
     </>

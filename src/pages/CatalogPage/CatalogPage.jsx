@@ -6,7 +6,7 @@ import { products } from "../../products"
 import { useState } from "react"
 import Search from "../../components/Search/Search"
 
-export default function CatalogPage(){
+export default function CatalogPage({cart, setCart}){
     const [search, setSearch] = useState('');
     const [sorting, setSorting] = useState(0);
     const [category, setCategory] = useState('all');
@@ -53,7 +53,8 @@ export default function CatalogPage(){
                         {
                             sortedAndFilteredProducts.length
                             ?
-                            sortedAndFilteredProducts.map(product=><Card {...product}/>)
+                            sortedAndFilteredProducts.map(product=><Card {...product}
+                                addToCart={()=>setCart([...cart, product.id])}/>)
                             :
                             <p>По запросу "{search}" ничего не найдено</p>
                         }

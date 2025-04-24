@@ -40,7 +40,7 @@ export default function UserPage(){
                 <p>{message}</p>
             </form>
             <div className="users">
-                <Search handleChange={handleChange}/>
+                <Search handleChange={handleChange} />
                 {   
                     filtredUsers.length 
                     ?
