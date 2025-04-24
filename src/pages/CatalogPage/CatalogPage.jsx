@@ -53,8 +53,7 @@ export default function CatalogPage({cart, setCart}){
                         {
                             sortedAndFilteredProducts.length
                             ?
-                            sortedAndFilteredProducts.map(product=><Card {...product}
-                                addToCart={()=>setCart([...cart, product.id])}/>)
+                            sortedAndFilteredProducts.map(product=><Card {...product} addToCart={()=>setCart([...cart, product.id])}/>)
                             :
                             <p>По запросу "{search}" ничего не найдено</p>
                         }

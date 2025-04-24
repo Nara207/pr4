@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 import BlueBtn from '../../../components/BlueBtn/BlueBtn'
 
 export default function Card(props){
-    const handleAddToCart = (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        console.log('Button clicked for product:', id);
-        addToCart();
-      };
+    // const handleAddToCart = (e) => {
+    //     e.preventDefault();
+    //     e.stopPropagation();
+    //     console.log('Button clicked for product:', id);
+    //     addToCart();
+    //   };
       
     return(
         
@@ -26,7 +26,8 @@ export default function Card(props){
                         
                     </div>
                 </div>
-                <button onClick={props.addToCart}><BlueBtn text='Добавить в корзину'/></button>
+                <button>llkpko</button>
+                <button onClick={props.addToCart}>Добавить в корзину</button>
             </section>
     )
 }

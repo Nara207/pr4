@@ -18,7 +18,7 @@ export default function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<HomePage/>}></Route>
-        <Route path="/catalog" element={<CatalogPage/>}></Route>
+        <Route path="/catalog" element={<CatalogPage cart={cart} setCart={setCart}/>}></Route>
         <Route path="/catalog/:id" element={<ProductPage/>}></Route>
         <Route path="/about_us" element={<AboutUsPage/>}></Route>
         <Route path="/users" element={<UserPage/>}></Route>
